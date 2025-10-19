@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+p{
+	color:antiquewhite;
+    font-size: 20px;
+
+}
+
+h2{
+	color: #ff1616;
+	font-size: 36px;
+}
+h3{
+	color: #EEE;
+	font-size: 24px
+}
+
+h4{
+	color: #0a0a0a;
+	font-size: 24px
+}
+/* ----- GERAL ----- */
+#tudo {
+	width: 100%;
+	min-height: 100vh; /* ocupa 100% da altura da tela */
+	margin: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+/* ----- TOPO ----- */
+#topo {
+    width: 100%;
+    height: auto; /* altura automática conforme a imagem */
+    text-align: center;
+    overflow: hidden;
+}
+
+#topo img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center top; /* ou bottom, dependendo do foco */
+}	
+
+/* ----- CONTEÚDO PRINCIPAL ----- */
+#coluna {
+	background: #0a0a0a;
+	width: 100%;
+    overflow: auto;
+	min-height: 475px;
+	font-family: Verdana;
+	text-align: center;
+}
+
+#conteudo-interno p{
+  color: antiquewhite; /* ou outra cor clara */
+  background-color: transparent; /* garante que não apareça branco */
+}
+
+h2{
+	background: #0a0a0a;
+    text-align: center;
+    text-indent: 10px;
+}
+
+.foto {
+    border: 2px solid #0a0a0a;
+    border-radius: 15px;
+    margin: 10px;
+    float: left;
+}
+.foto img {
+    border-radius: 15px 15px 0 0 ;
+}
+.legenda{
+    text-align: center;
+
+}
+.capital{
+    font-weight: bold;
+}
+.voltar {
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* ----- RODAPÉ ----- */
+#rodape {
+	background: #0aad0a;
+	width: 100%;
+	height: 40px;
+	clear: both;
+	text-align: center;
+}
+
+/* -----------------------------
+   TABELAS
+   ----------------------------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background-color: #0aad0a;
+}
+
+table th, table td {
+  border: 1px solid #0a0a0a;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+table th {
+  background-color: var(--cor-primaria);
+  color: #ff1616;
+}
+
+body {
+  background-color: #0a0a0a;
+}
+
+
+/*
+CSS Reset
+/*
